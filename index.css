@@ -1,0 +1,347 @@
+body{
+    /* background-color: #F0F0F0; */
+    scroll-behavior: smooth;
+}
+/* ubc navbar */
+.ubc-nav{
+    /* background: linear-gradient(to bottom,purple,rgb(192, 168, 168) ); */
+    background-color: inherit;
+}
+li a {
+    display: block;
+    padding-left: 10px !important;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: small;
+    font-weight: bolder;
+    color: purple !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li a:hover{
+    /* color:white !important; */
+    font-weight: 500;
+    font-size: smaller;
+}
+.carousel-item img{
+    height: 100vh; 
+    width: 100%; 
+}
+.carousel-indicators li{
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    background-color:lightcyan !important;
+    margin-bottom: 100px;
+}
+.caro-cap{
+    margin-bottom: 350px;
+    float: left;
+}
+.read-more a{
+    text-decoration: none;
+    float: right;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.read-more a:hover{
+    color: purple;
+}
+.fa-arrow-down{
+    font-size: 20px;
+    font-weight: bolder;
+    /* height: 30px; */
+    color: purple;
+}
+.fa-arrow-down:hover{
+    cursor: pointer;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transition: background 0.5s;
+    z-index: 11;
+    background: purple;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+/* line-height: 1; */
+    font-size: 16px;
+    border-radius: 50%;
+  }
+.back-to-top i {
+    padding-top: 12px;
+    color: #fff;
+  }
+  .carousel-item img{
+    height: 70vh;
+}
+.caro-cap{
+    margin-bottom: 150px;
+    float: left;
+}
+.ubc-logo{
+    width: 30px;
+}
+.ubc-h2{
+    font-size: 35px;
+    color: purple;
+    text-shadow: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ubc-evnts{
+    font-size: 25px;
+    color: purple;
+    text-shadow: none;
+    font-weight: 800;
+}
+.ubc-audio-tilte{
+    font-size: 20px;
+    color: purple;
+    text-shadow: none;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ubc-service-day{
+    font-size: 20px;
+    color: purple;
+    text-shadow: none;
+    font-weight: 700;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes type{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0;
+    }
+}
+.blog-title{
+    color: purple;
+    font-family: aharoni;
+    font-weight: 700;
+    font-size:20px;
+    letter-spacing: 0.2px;
+}
+/* for footer */
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-link a:hover{
+    text-decoration: underline;
+}
+.footer-text{
+    font-weight: 780;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+/* ..............footer */
+/* for smaller device.............................................. */
+@media screen and (min-width:411px){
+    .carousel-item img{
+        height: 70vh;
+    }
+    .caro-cap{
+        margin-bottom: 150px;
+        float: left;
+    }
+    .text-head{
+        /* font-size: 50px; */
+        font-family: Georgia, 'Times New Roman', Times, serif,aharoni;
+  }
+  .ubc-nav{
+      /* background: linear-gradient(to bottom,purple,rgb(192, 168, 168) ); */
+      background-color: inherit;
+  }
+  .ubc-logo{
+      width: 30px;
+  }
+  .ubc-menu{
+      color: purple;
+  }
+  .ubc-h2{
+      font-size: 25px;
+      color: purple;
+      text-shadow: 2px 2px #FEC5A7;
+  }
+  .ubc-evnts{
+    font-size: 25px;
+    color: purple;
+    text-shadow: none;
+    font-weight: 800;
+    }
+    li a {
+        display: block;
+        /* color: black !important; */
+        /*text-align: center;*/
+         /*padding: 14px 16px;*/ 
+        padding-left: 10px !important;
+        text-decoration: none;
+        /* font-family: Georgia, 'Times New Roman', Times, serif,ahar; */
+        letter-spacing: 2px;
+        font-size: small;
+        font-weight: 900;
+        color:purple !important;
+    }
+    li a:hover{
+        color:black !important;
+        font-weight: 500;
+        font-size: smaller;
+    }
+    .carousel-indicators li{
+        border-radius: 100%;
+        height: 10px;
+        width: 10px;
+        background-color:lightcyan !important;
+        margin-bottom: 100px;
+    }
+    .sermon-btn{
+        background: purple;
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: 500;
+        height: 30px;
+        width: 70%;
+    }
+}
+/* for bigger one........................................... */
+@media (min-width:1119px){
+    .carousel-item img{
+        height: 100vh;
+    }
+    .caro-cap{
+        margin-bottom: 300px;
+        margin-right: 500px !important;
+        bottom: 0;
+    }
+    .text-head{
+          font-size: 50px;
+          font-family: Georgia, 'Times New Roman', Times, serif,aharoni;
+    }
+    .ubc-nav{
+        background: none;
+        color: purple !important;
+    }
+    .ubc-logo{
+        width: 70px;
+    }
+    .ubc-h2{
+        font-size: 35px;
+        color: purple;
+        text-shadow: none
+    }
+    .ubc-evnts{
+        font-size: 25px;
+        color: purple;
+        text-shadow: none;
+        font-weight: 800;
+    }
+    .ubc-nav{
+        background: #F0F0F0;
+         /* color: black !important; */
+    }
+    li a {
+        display: block;
+        /* color: black !important; */
+        /*text-align: center;*/
+         /*padding: 14px 16px;*/ 
+        padding-left: 10px !important;
+        text-decoration: none;
+        /* font-family: Georgia, 'Times New Roman', Times, serif,ahar; */
+        letter-spacing: 2px;
+        font-size: small;
+        font-weight: 900;
+        color:purple !important;
+    }
+    li a:hover{
+        color:black !important;
+        font-weight: 500;
+        font-size: smaller;
+    }
+    .carousel-indicators li{
+        border-radius: 100%;
+        height: 10px;
+        width: 10px;
+        background-color:lightcyan !important;
+        margin-bottom: 100px;
+    }
+    .sermon-btn{
+        background: purple;
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: 500;
+        height: 30px;
+        width: 20%;
+    }
+    
+}
+/* typing animate */
+.typed{  
+    position: absolute;
+    top: 215%;
+    left: 50%; 
+    text-align: center;
+    margin-right: 40%;
+    transform: translate(-50%,-60%);
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    color:transparent
+}
+.typed:before{
+   content: attr(data-text);
+   top: 0;
+   left: 0;
+   width: 100%;
+   /* height: 99%; */
+   position: absolute;
+   color:purple;
+   overflow: hidden;
+   border-right: 0px solid #000;
+   animation: type 10s linear infinite;
+   white-space: nowrap;
+}
+@keyframes type{
+   0%{
+       width: 0;
+   }
+   50%{
+       width: 100%;
+   }
+   100%{
+       width: 0;
+   }
+}
+/* sermon................ */
+.text-icon{
+    font-size: 40px;
+     text-align: center;
+     color: lightyellow
+}
+.music-hold{
+    background:linear-gradient(to bottom,red,darkblue);
+    width: 100px;
+    height: 55px;
+    border-radius: 15px 30px;
+}
+.ubc-download a {
+    text-decoration: none;
+    color: purple;
+}
+.ubc-download i {
+    /* text-decoration: none; */
+    font-size: 20px;
+    color: purple;
+}
+
