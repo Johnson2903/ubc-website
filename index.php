@@ -1,6 +1,6 @@
 <?php 
 require ('ubc_admins/config/config.php');
-// include 'header.php';
+include 'header.php';
 $take=mysqli_query($conn,"SELECT * FROM event_table LIMIT 2");
 $numberofrow=mysqli_num_rows($take);
 $row=mysqli_fetch_all($take, MYSQLI_ASSOC);
